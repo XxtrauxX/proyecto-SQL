@@ -69,12 +69,46 @@ segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
 
 son las primeras TABLAS que obtuvimos
 
+## Normalizar 
 
+Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas, tablas de transición para que la realación entre TABLAS no sea de Muchos a Muchos, y la estructura relacional pueda funcionar de la manera correcta
+
+### Imagen primeros avances
 
 ![Imagen Primeros Avances](https://github.com/XxtrauxX/proyecto-SQL/blob/main/Modelo%20de%20Datos/boceto1-P%C3%A1gina-1.jpg)
 
 
-### Imagen primeros avances
+
+# Consultas
+breve explicacion sobre las consultas utilizadas en este proyecto
+
+Proporcionar ejemplos de algunas consultas SQL (básicas y avanzadas) que se pueden ejecutar en la base de datos, explicando qué información generan.
+
+
+# Procedimientos Almacenados
+
+Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+
+
+# funciones
+
+Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+
+
+# Triggers
+
+Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+
+
+# Eventos
+
+Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+
+
+
+# Usuarios y Permisos
+
+Describir los 5 roles de usuario creados en el sistema, junto con los permisos asignados a cada uno. Incluir instrucciones sobre cómo crear usuarios en MySQL y cómo asignarles los roles correspondientes.
 
 
 
@@ -87,9 +121,7 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
@@ -113,7 +145,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+Este proyecto fue individual sin colaboradores externos, 
 
 * **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
 * **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
