@@ -34,13 +34,23 @@ wget -O dbeaver.deb https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
 sudo apt install ./dbeaver.deb
 ```
 
+## Despliegue 📦
 
+### Prueba de Conexión
+
+
+Abra una terminal y Escriba:
+
+```
+mysql -u root -p
+```
+Ingresa la contraseña que configuraste. Si ve el mensaje mysql> , MySQL está funcionando correctamente.
 
 ## Reporte de Proyecto ⚙️
 
 1. El primer paso es crear el diagrama de la base de datos, con el Software draw.io, que sienta las bases de la arquitectura física del proyecto
 
-## creacion de Tablas
+## Creación de Tablas
 
 Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
 
