@@ -79,18 +79,18 @@ Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas,
 
 
 
-# Consultas
+## Consultas
 breve explicacion sobre las consultas utilizadas en este proyecto
 
 Proporcionar ejemplos de algunas consultas SQL (básicas y avanzadas) que se pueden ejecutar en la base de datos, explicando qué información generan.
 
 
-# Procedimientos Almacenados
+## Procedimientos Almacenados
 
 Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
 
 
-# funciones
+## funciones
 
 Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
 
@@ -100,35 +100,22 @@ Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionali
 Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
 
 
-# Eventos
+## Eventos
 
 Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
 
 
 
-# Usuarios y Permisos
+## Usuarios y Permisos
 
 Describir los 5 roles de usuario creados en el sistema, junto con los permisos asignados a cada uno. Incluir instrucciones sobre cómo crear usuarios en MySQL y cómo asignarles los roles correspondientes.
 
 
 
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-
-
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [DBveaber](http://www.dropwizard.io/1.0.2/docs/) - Software de Administración de BASES DE DATOS
+* [Visual Studio Code](https://maven.apache.org/) - Para organizar el esquema del proyecto subir los commits a GitHub y gestionar Oportunamente el README.
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Contribuyendo 🖇️
@@ -139,15 +126,12 @@ Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) 
 
 Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
 
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
 Este proyecto fue individual sin colaboradores externos, 
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Oscar Alejandro Díaz Ojeda** - *Creación Diagrama EN-RE* - [XxtrauxX](https://github.com/XxtrauxX/proyecto-SQL/tree/main/Modelo%20de%20Datos)
 * **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
@@ -155,6 +139,8 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+Licencia y Contacto: Incluir una sección sobre la licencia del proyecto (opcional) y cómo contactarte en caso de preguntas o problemas con la implementación.
 
 ## Expresiones de Gratitud 🎁
 
