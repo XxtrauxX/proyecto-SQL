@@ -42,6 +42,21 @@ sudo apt install ./dbeaver.deb
 
 ## creacion de Tablas
 
+Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
+
+segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
+1. Departamento
+2. Parque
+3. Area(Parque)
+4. Especies
+5. Personal
+6. proyecto investigación
+7. visitante
+8. Alojamiento
+
+
+son las primeras TABLAS que obtuvimos
+
 ### Analice las pruebas end-to-end 🔩
 
 _Explica que verifican estas pruebas y por qué_
@@ -106,4 +121,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Oscar Díaz](https://github.com/XxtrauxX) 😊
