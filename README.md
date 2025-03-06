@@ -46,13 +46,13 @@ mysql -u root -p
 ```
 Ingresa la contraseña que configuraste. Si ve el mensaje mysql> , MySQL está funcionando correctamente.
 
-## Reporte de Proyecto ⚙️
+## Reporte  General del Proyecto ⚙️
 
-1. El primer paso es crear el diagrama de la base de datos, con el Software draw.io, que sienta las bases de la arquitectura física del proyecto
+1. El primer paso es crear el diagrama de la base de datos, con el Software draw.io  que sienta las bases de la arquitectura física del proyecto, despues se procede a hacer la crecion del Script con el Administrador de Base de Datos DBeaver, se crea la base de datos, se crean las tablas con las diferentes caracteristicas, llaves primarias, llaves foraneas y demás, seguido se procede a la inserción de datos segun los requerimentos del PROYECTO, después se crea la sección CONSULTAS, con consultas Avanzadas y Básicas, que ayudan a agrupar la informacion suministrada de una mejor manera, seguido se crea la sección PROCEDIMIENTOS ALMACENADOS donde mas adelante se explica sus funcionalidas e incorporación al PROYECTO, creación sección FUNCIONES donde se detalla su funcionamiento y finalidad, también se crea la sección Triggers donde se especifica su uso y funcionamineto en el PROYECTO, también se crea sección de EVENTOS donde de manera practica se especifica su utilidad y motivo de incorporación, como información adicional en este documento se especifica en la sección USUARIOS Y PERMISOS los roles, permisos y demás privilegios de los distintos USURIOS creados, También se especifica los contribuyentes a este PROYECTO, la LICENCIA y datos adicionales
 
 ## Creación de Tablas
 
-### Estructura y Creación de la Base de Datos
+### Estructura y Creación de la Base de Datos (Detallado)
 
 Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
 
