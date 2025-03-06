@@ -23,6 +23,17 @@ Para Ejecutar el siguiente proyecto se utilizara el siguiente Software de base d
 choco install dbeaver -y
 ```
 
+## Descargar En macOS (usando Homebrew)
+```
+brew install --cask dbeaver-community
+```
+
+## Descargar En Linux (Debian/Ubuntu)
+```
+wget -O dbeaver.deb https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+sudo apt install ./dbeaver.deb
+```
+
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
