@@ -114,8 +114,8 @@ Describir los 5 roles de usuario creados en el sistema, junto con los permisos a
 
 ## Construido con 🛠️
 
-* [DBveaber](http://www.dropwizard.io/1.0.2/docs/) - Software de Administración de BASES DE DATOS
-* [Visual Studio Code](https://maven.apache.org/) - Para organizar el esquema del proyecto subir los commits a GitHub y gestionar Oportunamente el README.
+* [DBeaver](https://dbeaver.io/) - Software de Administración de BASES DE DATOS
+* [Visual Studio Code](https://code.visualstudio.com/) - Para organizar el esquema del proyecto subir los commits a GitHub y gestionar oportunamente el README.
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Contribuyendo 🖇️
