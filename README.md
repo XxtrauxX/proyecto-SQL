@@ -67,6 +67,12 @@ segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
 
 son las primeras TABLAS que obtuvimos
 
+
+
+### Imagen primeros avances
+
+
+
 ### Analice las pruebas end-to-end 🔩
 
 _Explica que verifican estas pruebas y por qué_
