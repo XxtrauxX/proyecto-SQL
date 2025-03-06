@@ -52,6 +52,8 @@ Ingresa la contraseña que configuraste. Si ve el mensaje mysql> , MySQL está f
 
 ## Creación de Tablas
 
+### Estructura y Creación de la Base de Datos
+
 Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
 
 segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
@@ -68,6 +70,7 @@ segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
 son las primeras TABLAS que obtuvimos
 
 
+
 ![Imagen Primeros Avances](https://github.com/XxtrauxX/proyecto-SQL/blob/main/Modelo%20de%20Datos/boceto1-P%C3%A1gina-1.jpg)
 
 
@@ -75,13 +78,6 @@ son las primeras TABLAS que obtuvimos
 
 
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ### Y las pruebas de estilo de codificación ⌨️
 
