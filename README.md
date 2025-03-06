@@ -124,7 +124,7 @@ Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) 
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [GitHub](https://docs.github.com/es/repositories/working-with-files/using-files/downloading-source-code-archives)
 
 
 ## Autores ✒️
