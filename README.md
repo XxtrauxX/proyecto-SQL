@@ -116,7 +116,7 @@ Describir los 5 roles de usuario creados en el sistema, junto con los permisos a
 
 * [DBeaver](https://dbeaver.io/) - Software de Administración de BASES DE DATOS
 * [Visual Studio Code](https://code.visualstudio.com/) - Para organizar el esquema del proyecto subir los commits a GitHub y gestionar oportunamente el README.
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+
 
 ## Contribuyendo 🖇️
 
@@ -129,10 +129,10 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [GitHub](
 
 ## Autores ✒️
 
-Este proyecto fue individual sin colaboradores externos, 
+Este proyecto fue individual sin colaboradores externos
 
-* **Oscar Alejandro Díaz Ojeda** - *Creación Diagrama EN-RE* - [XxtrauxX](https://github.com/XxtrauxX/proyecto-SQL/tree/main/Modelo%20de%20Datos)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Oscar Alejandro Díaz Ojeda** - *Creación del PROYECTO* - [XxtrauxX](https://github.com/XxtrauxX/proyecto-SQL/)
+
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
@@ -141,15 +141,6 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 Licencia y Contacto: Incluir una sección sobre la licencia del proyecto (opcional) y cómo contactarte en caso de preguntas o problemas con la implementación.
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
 
 
 ---
