@@ -34,27 +34,13 @@ wget -O dbeaver.deb https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
 sudo apt install ./dbeaver.deb
 ```
 
-### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
+## Reporte de Proyecto ⚙️
 
-```
-Da un ejemplo
-```
+1. El primer paso es crear el diagrama de la base de datos, con el Software draw.io, que sienta las bases de la arquitectura física del proyecto
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+## creacion de Tablas
 
 ### Analice las pruebas end-to-end 🔩
 
