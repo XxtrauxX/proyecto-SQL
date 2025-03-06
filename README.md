@@ -11,15 +11,16 @@ El siguiente proyecto de SQL tiene como fin la administración eficiente de info
 
 El objetivo del proyecto es diseñar y desarrollar una base de datos que permita gestionar de manera eficiente todas las operaciones relacionadas con los parques naturales bajo la supervisión del Ministerio del Medio Ambiente. El sistema abarcará la administración de departamentos, parques, áreas, especies, personal, proyectos de investigación, visitantes y alojamientos, asegurando una solución robusta, optimizada y capaz de facilitar consultas críticas para la toma de decisiones.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Para Ejecutar el siguiente proyecto se utilizara el siguiente Software de base de datos #DBeaver
 
+## Descargar en Windows 
 ```
-Da un ejemplo
+choco install dbeaver -y
 ```
 
 ### Instalación 🔧
