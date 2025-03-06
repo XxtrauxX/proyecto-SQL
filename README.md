@@ -68,6 +68,8 @@ segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
 son las primeras TABLAS que obtuvimos
 
 
+![Imagen Primeros Avances](https://github.com/XxtrauxX/proyecto-SQL/blob/main/Modelo%20de%20Datos/boceto1-P%C3%A1gina-1.jpg)
+
 
 ### Imagen primeros avances
 
