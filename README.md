@@ -88,7 +88,7 @@ El primer boceto terminado del Diagrama Entidad Relación
 ![Diagrama ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/boceto5.jpg)
 
 
-dd
+
 ## Consultas
 breve explicacion sobre las consultas utilizadas en este proyecto
 
