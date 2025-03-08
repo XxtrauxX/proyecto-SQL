@@ -56,7 +56,7 @@ El primer paso es crear el diagrama de la base de datos, con el Software draw.io
 
 Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
 
-segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
+segun la informacion que tenemos, son 9 primeras entidades(TABLAS)
 1. Departamento
 2. Parque
 3. Area(Parque)
@@ -65,6 +65,7 @@ segun la informacion que tenemos, son 8 primeras entidades(TABLAS)
 6. proyecto investigación
 7. visitante
 8. Alojamiento
+9. entrada
 
 
 son las primeras TABLAS que obtuvimos
@@ -72,6 +73,11 @@ son las primeras TABLAS que obtuvimos
 ## Normalizar 
 
 Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas, tablas de transición para que la realación entre TABLAS no sea de Muchos a Muchos, y la estructura relacional pueda funcionar de la manera correcta
+
+nuevas tablas
+![nuevas tablas](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-08%20a%20la(s)%2010.56.44%20a.%20m..png)
+
+El primer boceto terminado del Diagrama Entidad Relación
 
 ### Imagen primeros avances
 
