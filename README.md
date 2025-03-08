@@ -78,7 +78,7 @@ Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas,
 ![Imagen Primeros Avances](https://github.com/XxtrauxX/proyecto-SQL/blob/main/Modelo%20de%20Datos/boceto1-P%C3%A1gina-1.jpg)
 
 
-
+dd
 ## Consultas
 breve explicacion sobre las consultas utilizadas en este proyecto
 
