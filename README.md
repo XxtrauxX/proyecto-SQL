@@ -82,9 +82,8 @@ nuevas tablas
 El primer boceto terminado del Diagrama Entidad Relación
 
 
-![nuevas tablas  ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-08%20a%20la(s)%2010.56.44%20a.%20m..png)
 
-### Imagen primeros avances
+### Primer Diagrama Terminado (boceto1)
 
 ![Diagrama ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/boceto5.jpg)
 
