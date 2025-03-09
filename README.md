@@ -78,7 +78,7 @@ Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas,
 
 se Crean tablas de transición:
 
-11. ### area_ especie (para que la relación entre area y especie se de 1 a muchos)
+11. ##### area_ especie (para que la relación entre area y especie se de 1 a muchos)
 12. ### area_parque_natutal (para que la relación entre area y especie se de 1 a muchos)
 13. departamento_parque_natural  (para que la relación entre area y especie se de 1 a muchos)
 14. personal_conservacion (esta tabla fue hecha para guardar la relación que hay entre el personal, tipo de mantenimiento y el area especifica donde desempeña su labor)
