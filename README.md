@@ -56,16 +56,18 @@ El primer paso es crear el diagrama de la base de datos, con el Software draw.io
 
 Segun la informacion propuesta creamos las primeras tablas, sin tener encuenta aún las relaciones.
 
-segun la informacion que tenemos, son 9 primeras entidades(TABLAS)
+segun la informacion que tenemos, son 10 primeras entidades(TABLAS)
 1. Departamento
 2. Parque
 3. Area(Parque)
-4. Especies
+4. Especie
 5. Personal
 6. proyecto investigación
 7. visitante
 8. Alojamiento
 9. entrada
+10. encargado_departamento
+
 
 
 son las primeras TABLAS que obtuvimos
@@ -73,6 +75,21 @@ son las primeras TABLAS que obtuvimos
 ## Normalizar 
 
 Una vez tenemos definidas las primeras tablas, Se procede a Crear nuevas tablas, tablas de transición para que la realación entre TABLAS no sea de Muchos a Muchos, y la estructura relacional pueda funcionar de la manera correcta
+
+se Crean tablas de transición:
+11. area_ especie (para que la relación entre area y especie se de 1 a muchos)
+12. area_parque_natutal (para que la relación entre area y especie se de 1 a muchos)
+13. departamento_parque_natural  (para que la relación entre area y especie se de 1 a muchos)
+14. personal_conservacion (esta tabla fue hecha para guardar la relación que hay entre el personal, tipo de mantenimiento y el area especifica donde desempeña su labor)
+15. proyecto_investigacion ( ya que muchos investigadores pueden tener muchos proyectos y especies para estudio se crea esta tabla de transición)
+16. personal_vigilancia (para tener la relacion de 1 a muchos correcta, guardar información acerca del personal, el area donde opera especificamente y el tipo de vehiculo)
+17. registro_entrada (conforme a lo que estipula el proyecto, esta tabla registra la entrada de los viistantes, hace referencia a la entrada utilizada y el personal que los registro)
+18. visitante_alojamiento (mantiene la relacion de 1 a muchos, y tiene la información del visitante, su alojamiento especifico dentro del parque)
+19. vehiculo (Tabla principal agragada para optener información relacionada con personal)
+
+
+
+
 
 nuevas tablas
 
