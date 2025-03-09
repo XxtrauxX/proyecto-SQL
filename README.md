@@ -132,14 +132,18 @@ se clasifican de la siguiente manera
 100 consultas
 
  clasificadas en:
-1.  Estados Actual de parques
+1.  ### Estados Actual de parques
 
 ### EJEMPLO
+
+devuelve un listado detallado, departamento, parque y superficie
 
 ![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-09%20a%20la(s)%203.24.36%20p.%20m..png)
 
 
 2. inventarios de especie por areas y tipos
+
+
 4. Actividades del personal segun tipo, areas asignadas y sueldos
 5. estadisticas de proyectos de investigación: costos, especies, involucradas y equipos
 6. gestión de visitantes y ocupaciones de alojamien
