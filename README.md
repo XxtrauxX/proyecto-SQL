@@ -104,7 +104,7 @@ conforme a lo que estipula el proyecto, esta tabla registra la entrada de los vi
 mantiene la relacion de 1 a muchos, y tiene la información del visitante, su alojamiento especifico dentro del parque
 
 19. #### vehiculo: 
-Tabla principal agragada para optener información relacionada con personal
+Tabla principal agragada para obtener información relacionada con personal
 
 
 
