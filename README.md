@@ -81,13 +81,13 @@ se Crean tablas de transición:
 11. #### area_ especie: 
 para que la relación entre area y especie se de 1 a muchos
 12. #### area_parque_natutal:
- para que la relación entre area y especie se de 1 a muchos
+ara que la relación entre area y especie se de 1 a muchos
 13. #### departamento_parque_natural:
- para que la relación entre area y especie se de 1 a muchos
+para que la relación entre area y especie se de 1 a muchos
 14. #### personal_conservacion:
- esta tabla fue hecha para guardar la relación que hay entre el personal, tipo de mantenimiento y el area especifica donde desempeña su labor
+esta tabla fue hecha para guardar la relación que hay entre el personal, tipo de mantenimiento y el area especifica donde desempeña su labor
 15. #### proyecto_investigacion:
-  ya que muchos investigadores pueden tener muchos proyectos y especies para estudio se crea esta tabla de transición
+ya que muchos investigadores pueden tener muchos proyectos y especies para estudio se crea esta tabla de transición
 16. #### personal_vigilancia 
 para tener la relacion de 1 a muchos correcta, guardar información acerca del personal, el area donde opera especificamente y el tipo de vehiculo
 17. #### registro_entrada: 
