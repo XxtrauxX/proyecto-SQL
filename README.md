@@ -136,6 +136,7 @@ se clasifican de la siguiente manera
 
 ### EJEMPLO
 
+![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/boceto5.jpg)
 
 
 2. inventarios de especie por areas y tipos
