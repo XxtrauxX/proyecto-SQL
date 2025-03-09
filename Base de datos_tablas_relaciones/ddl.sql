@@ -197,7 +197,7 @@ create table proyecto_investigacion(
 		foreign key(id_entrada) references entrada(id_entrada));
 	
 	
-	select * from personal;
+	
 	
 
 

@@ -128,8 +128,21 @@ El primer boceto terminado del Diagrama Entidad Relación
 ## Consultas
 breve explicacion sobre las consultas utilizadas en este proyecto
 
-Proporcionar ejemplos de algunas consultas SQL (básicas y avanzadas) que se pueden ejecutar en la base de datos, explicando qué información generan.
+se clasifican de la siguiente manera
+100 consultas
 
+ clasificadas en:
+1.  Estados Actual de parques
+
+### EJEMPLO
+
+
+
+2. inventarios de especie por areas y tipos
+4. Actividades del personal segun tipo, areas asignadas y sueldos
+5. estadisticas de proyectos de investigación: costos, especies, involucradas y equipos
+6. gestión de visitantes y ocupaciones de alojamien
+7. consultas avanzadas (con subconsultas)
 
 ## Procedimientos Almacenados
 
