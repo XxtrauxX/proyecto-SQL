@@ -148,10 +148,13 @@ devuelve un listado detallado, departamento, parque y superficie
 
 4. Actividades del personal segun tipo, areas asignadas y sueldos
 
+![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-09%20a%20la(s)%207.26.36%20p.%20m..png)
+
 
 5. estadisticas de proyectos de investigación: costos, especies, involucradas y equipos
-6. gestión de visitantes y ocupaciones de alojamien
-7. consultas avanzadas (con subconsultas)
+
+
+6. gestión de visitantes y ocupaciones de alojamien y consultas avanzadas (con subconsultas)
 
 ## Procedimientos Almacenados
 
