@@ -177,7 +177,7 @@ Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionali
 
 ## Eventos
 
-Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+Se implementan eventos para generar reportes semanales, en algunos casos diarios, automatizamos nuestra base de datos, y se crea tabla para almacenar los datos que se obtienen de los eventos en el tiempo.
 
 
 
