@@ -160,7 +160,7 @@ devuelve un listado detallado, departamento, parque y superficie
 
 ## Procedimientos Almacenados
 
-Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+se utilizaron 20 procedimientos almacenados distintos para gestionar, modificar, elimnar y verificar la información almacenada, procedimientos básicos como lo son el 1 y el 20 que fueron utilizados para agregar información a la base de Datos, facilitando su uso
 
 
 ## funciones
