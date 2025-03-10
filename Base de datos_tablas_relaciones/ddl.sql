@@ -34,10 +34,13 @@ create table departamento_parque_natural(
 
 
 
+
 create table area(
 	id_area int primary key auto_increment,
 	nombre varchar(20) not null,
 	extencion_area float not null);
+
+
 
 
 create table area_parque_natural(
@@ -66,6 +69,7 @@ create table area_especie(
 	id_area_especie int primary key auto_increment,
 	id_area int not null,
 	id_especie int not null,
+	numero_individuos_area int not null,
 	foreign key(id_area) references area(id_area),
 	foreign key(id_especie) references especie(id));
 
@@ -76,7 +80,7 @@ create table area_especie(
 create table personal(
 	id_personal int primary key auto_increment,
 	nombre varchar(100) not null,
-	numero_cedula varchar(20) not null,
+	numero_cedula varchar(20)  unique not null,
 	direccion varchar(100) not null,
 	telefono varchar(20) not null,
 	sueldo float not null,
@@ -89,6 +93,7 @@ create table vehiculo(
 	id int primary key auto_increment,
 	tipo varchar(20) not null,
 	marca varchar(20) not null);
+
 
 
 
@@ -106,7 +111,7 @@ create table personal_vigilancia(
 create table proyecto_investigacion(
 	id_proyecto int primary key auto_increment,
 	presupuesto float not null,
-	periodo_realizacion)
+	periodo_realizacion varchar(100) not null);
 	
 	
 	
@@ -118,7 +123,7 @@ create table proyecto_investigacion(
 		profesion varchar(20) not null);
 	
 	
-	
+
 	
 	create table personal_conservacion(
 		id_conversacion int primary key auto_increment,
@@ -153,13 +158,15 @@ create table proyecto_investigacion(
 	
 	
 	
+	
+	
 
 	
 	create table alojamiento(
 		id int primary key auto_increment,
 		nombre varchar(100) not null,
 		capacidad int not null,
-		categoria varchar(20) not null,
+		categoria enum('casa','edificio') not null,
 		id_parque int not null,
 		foreign key(id_parque) references parque_natural(id_parque));
 	
@@ -176,6 +183,7 @@ create table proyecto_investigacion(
 	
 	
 	
+	
 	create table entrada(
 		id_entrada int primary key auto_increment,
 		nombre varchar(100) not null,
@@ -184,8 +192,7 @@ create table proyecto_investigacion(
 	
 	
 	
-	
-	
+
 	create table registro_entrada(
 		id_registro int primary key auto_increment,
 		id_personal int not null,
@@ -195,7 +202,6 @@ create table proyecto_investigacion(
 		foreign key(id_personal) references personal(id_personal),
 		foreign key(id_visitante) references visitante(id),
 		foreign key(id_entrada) references entrada(id_entrada));
-	
 	
 	
 	
