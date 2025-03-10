@@ -165,7 +165,7 @@ se utilizaron 20 procedimientos almacenados distintos para gestionar, modificar,
 
 ## funciones
 
-Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+se utilizaron 20 funciones para sistematizar y optimizar la base de datos, con niveles de complejidad distintas.
 
 
 # Triggers
