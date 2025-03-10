@@ -155,6 +155,7 @@ devuelve un listado detallado, departamento, parque y superficie
 
 
 6. gestión de visitantes y ocupaciones de alojamien y consultas avanzadas (con subconsultas)
+![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-09%20a%20la(s)%207.29.23%20p.%20m..png)
 
 ## Procedimientos Almacenados
 
