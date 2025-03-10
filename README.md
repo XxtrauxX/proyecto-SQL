@@ -172,7 +172,7 @@ se utilizaron 20 funciones para sistematizar y optimizar la base de datos, con n
 
 # Triggers
 
-Procedimientos, Funciones, Triggers y Eventos: Explicar brevemente la funcionalidad de los procedimientos almacenados, funciones, triggers y eventos creados. Incluir ejemplos de cómo se pueden usar en el contexto del sistema.
+se adaptan los triggers al contexto de la base de datos, generando reportes en tablas diferentes acerca del cambio de información, de complejidad baja para no entorpecer el correcto fucionamiento y rendimiento de la base de datos
 
 
 ## Eventos
@@ -183,7 +183,30 @@ Se implementan eventos para generar reportes semanales, en algunos casos diarios
 
 ## Usuarios y Permisos
 
-Describir los 5 roles de usuario creados en el sistema, junto con los permisos asignados a cada uno. Incluir instrucciones sobre cómo crear usuarios en MySQL y cómo asignarles los roles correspondientes.
+se crean 5 roles diferente
+
+#### admnistrador:
+con acceso a todo
+
+#### Gestor de parques
+
+con acceso a parques_naturales, area, especies
+
+
+#### investigador
+
+con acceso a todo lo relacionado con el proyecto
+
+
+
+#### Auditor
+
+con acceso unicamente al area donde se manejan presupuestos
+
+
+#### encargado de los visitantes
+
+con acceso a visitantes, alojamiento y visitante_alojamiento
 
 
 
