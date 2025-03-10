@@ -1,17 +1,5 @@
 -- inserción de datos
 
-
--- inserciones
-	
-
--- inserciones
-	
-
--- inserción PERSONAL
-
--- se insertaron más de 50 resgistros para que las tablas de transición pudiesen cumplir con la norma
--- de 50 inserciones por tabla, debido a que esta información se divide en tipo_personal
-	
 INSERT INTO personal (nombre, numero_cedula, direccion, telefono, sueldo, tipo_personal) VALUES
 ('Lionel Messi', '10000001', 'Calle Fútbol 1, Ciudad A', '555-0001', 3000.00, '001'),
 ('Cristiano Ronaldo', '10000002', 'Avenida Balón 2, Ciudad B', '555-0002', 3200.00, '002'),
@@ -919,6 +907,8 @@ INSERT INTO encargado_departamento (nombre) VALUES
 
 
 
+
+
 -- inserción Proyecto_investigación
 
 INSERT INTO proyecto_investigacion (nombre, presupuesto, periodo_realizacion) VALUES
@@ -1036,6 +1026,406 @@ INSERT INTO personal_proyecto (id_personal, id_proyecto, id_especie) VALUES
 (190, 47, 47),
 (194, 48, 48),
 (198, 49, 49);
+
+
+
+
+-- inserción Departamento_parque_natural
+
+INSERT INTO departamento_parque_natural (id_departamento, id_parque) VALUES
+(1, 1),
+(2, 2),
+(3, 2),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20),
+(21, 21),
+(22, 22),
+(23, 23),
+(24, 24),
+(25, 25),
+(26, 26),
+(27, 27),
+(28, 28),
+(29, 29),
+(30, 30),
+(31, 31),
+(32, 32),
+(33, 33),
+(34, 34),
+(35, 35),
+(36, 36),
+(37, 37),
+(38, 38),
+(39, 39),
+(40, 40),
+(41, 41),
+(42, 42),
+(43, 43),
+(44, 44),
+(45, 45),
+(46, 46),
+(47, 47),
+(48, 48),
+(49, 49),
+(50, 50);
+
+
+-- inserciones entrada
+
+
+INSERT INTO entrada (nombre, id_parque) VALUES
+('Entrada Parque Nacional Yellowstone', 1),
+('Entrada Parque Nacional Yosemite', 2),
+('Entrada Parque Nacional Torres del Paine', 3),
+('Entrada Parque Nacional Iguazú', 4),
+('Entrada Parque Nacional Banff', 5),
+('Entrada Parque Nacional Jasper', 6),
+('Entrada Parque Nacional Rocky Mountain', 7),
+('Entrada Parque Nacional Great Smoky Mountains', 8),
+('Entrada Parque Nacional Grand Canyon', 9),
+('Entrada Parque Nacional Zion', 10),
+('Entrada Parque Nacional Arches', 11),
+('Entrada Parque Nacional Olympic', 12),
+('Entrada Parque Nacional Everglades', 13),
+('Entrada Parque Nacional Denali', 14),
+('Entrada Parque Nacional Acadia', 15),
+('Entrada Parque Nacional Crater Lake', 16),
+('Entrada Parque Nacional Redwood', 17),
+('Entrada Parque Nacional Grand Teton', 18),
+('Entrada Parque Nacional Mount Rainier', 19),
+('Entrada Parque Nacional Sequoia', 20),
+('Entrada Parque Nacional Kings Canyon', 21),
+('Entrada Parque Nacional Haleakalā', 22),
+('Entrada Parque Nacional Volcanoes', 23),
+('Entrada Parque Nacional Death Valley', 24),
+('Entrada Parque Nacional Joshua Tree', 25),
+('Entrada Parque Nacional Great Basin', 26),
+('Entrada Parque Nacional Carlsbad Caverns', 27),
+('Entrada Parque Nacional Saguaro', 28),
+('Entrada Parque Nacional Mesa Verde', 29),
+('Entrada Parque Nacional Badlands', 30),
+('Entrada Parque Nacional Guadalupe Mountains', 31),
+('Entrada Parque Nacional Voyageurs', 32),
+('Entrada Parque Nacional Cuyahoga Valley', 33),
+('Entrada Parque Nacional Biscayne', 34),
+('Entrada Parque Nacional Big Bend', 35),
+('Entrada Parque Nacional Padre Island', 36),
+('Entrada Parque Nacional Channel Islands', 37),
+('Entrada Parque Nacional Capitol Reef', 38),
+('Entrada Parque Nacional Congaree', 39),
+('Entrada Parque Nacional New River Gorge', 40),
+('Entrada Parque Nacional Shenandoah', 41),
+('Entrada Parque Nacional Mammoth Cave', 42),
+('Entrada Parque Nacional Black Canyon of the Gunnison', 43),
+('Entrada Parque Nacional Lassen Volcanic', 44),
+('Entrada Parque Nacional Wind Cave', 45),
+('Entrada Parque Nacional Great Sand Dunes', 46),
+('Entrada Parque Nacional Petrified Forest', 47),
+('Entrada Parque Nacional Pinnacles', 48),
+('Entrada Parque Nacional Bisti/De-Na-Zin', 49),
+('Entrada Parque Nacional Grand Staircase-Escalante', 50);
+
+
+
+-- insercion registro_entrada
+
+
+INSERT INTO registro_entrada (id_personal, id_visitante, id_entrada, fecha) VALUES
+(1,   1,  1, '2025-03-10 08:00:00'),
+(5,   2,  2, '2025-03-10 08:01:00'),
+(9,   3,  3, '2025-03-10 08:02:00'),
+(13,  4,  4, '2025-03-10 08:03:00'),
+(17,  5,  5, '2025-03-10 08:04:00'),
+(21,  6,  6, '2025-03-10 08:05:00'),
+(25,  7,  7, '2025-03-10 08:06:00'),
+(29,  8,  8, '2025-03-10 08:07:00'),
+(33,  9,  9, '2025-03-10 08:08:00'),
+(37, 10, 10, '2025-03-10 08:09:00'),
+(41, 11, 11, '2025-03-10 08:10:00'),
+(45, 12, 12, '2025-03-10 08:11:00'),
+(49, 13, 13, '2025-03-10 08:12:00'),
+(53, 14, 14, '2025-03-10 08:13:00'),
+(57, 15, 15, '2025-03-10 08:14:00'),
+(61, 16, 16, '2025-03-10 08:15:00'),
+(65, 17, 17, '2025-03-10 08:16:00'),
+(69, 18, 18, '2025-03-10 08:17:00'),
+(73, 19, 19, '2025-03-10 08:18:00'),
+(77, 20, 20, '2025-03-10 08:19:00'),
+(81, 21, 21, '2025-03-10 08:20:00'),
+(85, 22, 22, '2025-03-10 08:21:00'),
+(92, 23, 23, '2025-03-10 08:22:00'),
+(96, 24, 24, '2025-03-10 08:23:00'),
+(100,25, 25, '2025-03-10 08:24:00'),
+(104,26, 26, '2025-03-10 08:25:00'),
+(108,27, 27, '2025-03-10 08:26:00'),
+(112,28, 28, '2025-03-10 08:27:00'),
+(116,29, 29, '2025-03-10 08:28:00'),
+(120,30, 30, '2025-03-10 08:29:00'),
+(124,31, 31, '2025-03-10 08:30:00'),
+(128,32, 32, '2025-03-10 08:31:00'),
+(129,33, 33, '2025-03-10 08:32:00'),
+(133,34, 34, '2025-03-10 08:33:00'),
+(137,35, 35, '2025-03-10 08:34:00'),
+(141,36, 36, '2025-03-10 08:35:00'),
+(145,37, 37, '2025-03-10 08:36:00'),
+(149,38, 38, '2025-03-10 08:37:00'),
+(153,39, 39, '2025-03-10 08:38:00'),
+(157,40, 40, '2025-03-10 08:39:00'),
+(159,41, 41, '2025-03-10 08:40:00'),
+(163,42, 42, '2025-03-10 08:41:00'),
+(167,43, 43, '2025-03-10 08:42:00'),
+(171,44, 44, '2025-03-10 08:43:00'),
+(175,45, 45, '2025-03-10 08:44:00'),
+(179,46, 46, '2025-03-10 08:45:00'),
+(183,47, 47, '2025-03-10 08:46:00'),
+(187,48, 48, '2025-03-10 08:47:00'),
+(191,49, 49, '2025-03-10 08:48:00'),
+(195,50, 50, '2025-03-10 08:49:00');
+
+
+
+
+-- insercion alojamiento
+
+INSERT INTO alojamiento (nombre, capacidad, categoria, id_parque) VALUES
+('Casa del Sol', 20, 'casa', 1),
+('Edificio Aurora', 80, 'edificio', 1),
+('Casa de la Montaña', 15, 'casa', 2),
+('Edificio Sierra', 90, 'edificio', 2),
+('Casa del Valle', 25, 'casa', 3),
+('Edificio del Río', 100, 'edificio', 3),
+('Casa Verde', 18, 'casa', 4),
+('Edificio Verde', 120, 'edificio', 4),
+('Casa de la Paz', 30, 'casa', 5),
+('Edificio Central', 150, 'edificio', 5),
+('Casa del Mar', 22, 'casa', 6),
+('Edificio Horizonte', 130, 'edificio', 6),
+('Casa de la Luna', 28, 'casa', 7),
+('Edificio Celeste', 110, 'edificio', 7),
+('Casa Tropical', 35, 'casa', 8),
+('Edificio Tropical', 140, 'edificio', 8),
+('Casa del Bosque', 40, 'casa', 9),
+('Edificio Bosque', 160, 'edificio', 9),
+('Casa del Campo', 32, 'casa', 10),
+('Edificio Campo', 170, 'edificio', 10),
+('Casa del Río', 24, 'casa', 11),
+('Edificio Río', 180, 'edificio', 11),
+('Casa del Cielo', 26, 'casa', 12),
+('Edificio Cielo', 190, 'edificio', 12),
+('Casa de Piedra', 29, 'casa', 13),
+('Edificio Piedra', 200, 'edificio', 13),
+('Casa de Agua', 21, 'casa', 14),
+('Edificio Agua', 155, 'edificio', 14),
+('Casa del Viento', 33, 'casa', 15),
+('Edificio Viento', 165, 'edificio', 15),
+('Casa de Arena', 27, 'casa', 16),
+('Edificio Arena', 175, 'edificio', 16),
+('Casa de Piedra Roja', 31, 'casa', 17),
+('Edificio Piedra Roja', 185, 'edificio', 17),
+('Casa del Desierto', 34, 'casa', 18),
+('Edificio Desierto', 195, 'edificio', 18),
+('Casa del Oasis', 36, 'casa', 19),
+('Edificio Oasis', 205, 'edificio', 19),
+('Casa del Jardín', 38, 'casa', 20),
+('Edificio Jardín', 215, 'edificio', 20),
+('Casa del Lago Azul', 42, 'casa', 21),
+('Edificio Lago Azul', 225, 'edificio', 21),
+('Casa del Cerezo', 30, 'casa', 22),
+('Edificio Cerezo', 235, 'edificio', 22),
+('Casa del Roble', 40, 'casa', 23),
+('Edificio Roble', 245, 'edificio', 23),
+('Casa del Pino', 35, 'casa', 24),
+('Edificio Pino', 255, 'edificio', 24),
+('Casa del Sauce', 37, 'casa', 25),
+('Edificio Sauce', 265, 'edificio', 25);
+
+
+
+-- insercion visitante_alojamiento
+
+
+
+INSERT INTO visitante_alojamiento (id_visitante, id_alojamiento, fecha) VALUES
+(1, 1, '2025-03-15'),
+(2, 2, '2025-03-16'),
+(3, 3, '2025-03-17'),
+(4, 4, '2025-03-18'),
+(5, 5, '2025-03-19'),
+(6, 6, '2025-03-20'),
+(7, 7, '2025-03-21'),
+(8, 8, '2025-03-22'),
+(9, 9, '2025-03-23'),
+(10, 10, '2025-03-24'),
+(11, 11, '2025-03-25'),
+(12, 12, '2025-03-26'),
+(13, 13, '2025-03-27'),
+(14, 14, '2025-03-28'),
+(15, 15, '2025-03-29'),
+(16, 16, '2025-03-30'),
+(17, 17, '2025-03-31'),
+(18, 18, '2025-04-01'),
+(19, 19, '2025-04-02'),
+(20, 20, '2025-04-03'),
+(21, 21, '2025-04-04'),
+(22, 22, '2025-04-05'),
+(23, 23, '2025-04-06'),
+(24, 24, '2025-04-07'),
+(25, 25, '2025-04-08'),
+(26, 26, '2025-04-09'),
+(27, 27, '2025-04-10'),
+(28, 28, '2025-04-11'),
+(29, 29, '2025-04-12'),
+(30, 30, '2025-04-13'),
+(31, 31, '2025-04-14'),
+(32, 32, '2025-04-15'),
+(33, 33, '2025-04-16'),
+(34, 34, '2025-04-17'),
+(35, 35, '2025-04-18'),
+(36, 36, '2025-04-19'),
+(37, 37, '2025-04-20'),
+(38, 38, '2025-04-21'),
+(39, 39, '2025-04-22'),
+(40, 40, '2025-04-23'),
+(41, 41, '2025-04-24'),
+(42, 42, '2025-04-25'),
+(43, 43, '2025-04-26'),
+(44, 44, '2025-04-27'),
+(45, 45, '2025-04-28'),
+(46, 46, '2025-04-29'),
+(47, 47, '2025-04-30'),
+(48, 48, '2025-05-01'),
+(49, 49, '2025-05-02'),
+(50, 50, '2025-05-03');
+
+
+
+-- inserción personal_vigilancia
+
+-- solo insertando los tipo_personal 002
+
+INSERT INTO personal_vigilancia (id_personal, id_area, id_vehiculo) VALUES
+(2,    2,  1),
+(6,    4,  2),
+(10,   6,  3),
+(14,   8,  4),
+(18,  10,  5),
+(22,  12,  6),
+(26,  14,  7),
+(30,  16,  8),
+(34,  18,  9),
+(38,  20, 10),
+(42,  22, 11),
+(46,  24, 12),
+(50,  26, 13),
+(54,  28, 14),
+(58,  30, 15),
+(62,  32, 16),
+(66,  34, 17),
+(70,  36, 18),
+(74,  38, 19),
+(78,  40, 20),
+(82,  42, 21),
+(86,  44, 22),
+(89,  46, 23),
+(93,  48, 24),
+(97,  50, 25),
+(101, 52, 26),
+(105, 54, 27),
+(109, 56, 28),
+(113, 58, 29),
+(117, 60, 30),
+(121, 62, 31),
+(125, 64, 32),
+(130, 66, 33),
+(134, 68, 34),
+(138, 70, 35),
+(142, 72, 36),
+(146, 74, 37),
+(150, 76, 38),
+(154, 78, 39),
+(158, 80, 40),
+(160, 82, 41),
+(164, 84, 42),
+(168, 86, 43),
+(172, 88, 44),
+(176, 90, 45),
+(180, 92, 46),
+(184, 94, 47),
+(188, 96, 48),
+(192, 98, 49),
+(196,100, 50);
+
+
+-- insercion personal_conservacion
+
+INSERT INTO personal_conservacion (id_personal, id_area, tipo_mantenimiento) VALUES
+(3,   3,  'limpieza'),      
+(7,   6,  'mantenimiento'), 
+(11,  9,  'limpieza'),      
+(15, 12,  'mantenimiento'),
+(19, 15,  'limpieza'),      
+(23, 18,  'mantenimiento'),
+(27, 21,  'limpieza'),      
+(31, 24,  'mantenimiento'), 
+(35, 27,  'limpieza'),      
+(39, 30,  'mantenimiento'), 
+(43, 33,  'limpieza'),      
+(47, 36,  'mantenimiento'), 
+(51, 39,  'limpieza'),      
+(55, 42,  'mantenimiento'), 
+(59, 45,  'limpieza'),      
+(63, 48,  'mantenimiento'), 
+(67, 51,  'limpieza'),      
+(71, 54,  'mantenimiento'), 
+(75, 57,  'limpieza'),      
+(79, 60,  'mantenimiento'), 
+(83, 63,  'limpieza'),      
+(87, 66,  'mantenimiento'),
+(90, 69,  'limpieza'),      
+(94, 72,  'mantenimiento'), 
+(98, 75,  'limpieza'),     
+(102,78,  'mantenimiento'), 
+(106,81,  'limpieza'),      
+(110,84,  'mantenimiento'), 
+(114,87,  'limpieza'),      
+(118,90,  'mantenimiento'), 
+(122,93,  'limpieza'),      
+(126,96,  'mantenimiento'), 
+(131,99,  'limpieza'),      
+(135,102, 'mantenimiento'), 
+(139,105, 'limpieza'),      
+(143,108, 'mantenimiento'), 
+(147,111, 'limpieza'),      
+(151,114, 'mantenimiento'), 
+(155,117, 'limpieza'),      
+(161,120, 'mantenimiento'), 
+(165,123, 'limpieza'),     
+(169,126, 'mantenimiento'), 
+(173,129, 'limpieza'),      
+(177,132, 'mantenimiento'), 
+(181,135, 'limpieza'),      
+(185,138, 'mantenimiento'), 
+(189,141, 'limpieza'),     
+(193,144, 'mantenimiento'), 
+(197,147, 'limpieza'),      
+(3,   150, 'mantenimiento');
+
+
 
 
 
