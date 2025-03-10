@@ -153,6 +153,7 @@ devuelve un listado detallado, departamento, parque y superficie
 
 5. estadisticas de proyectos de investigación: costos, especies, involucradas y equipos
 
+![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-09%20a%20la(s)%207.32.24%20p.%20m..png)
 
 6. gestión de visitantes y ocupaciones de alojamien y consultas avanzadas (con subconsultas)
 ![Ejemplo ](https://github.com/XxtrauxX/proyecto-SQL/blob/main/docs/Captura%20de%20Pantalla%202025-03-09%20a%20la(s)%207.29.23%20p.%20m..png)
